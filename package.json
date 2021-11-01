@@ -1,0 +1,26 @@
+{
+  "name": "francais_devoir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinejeunon/francais_devoir.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carolinejeunon/francais_devoir/issues"
+  },
+  "homepage": "https://github.com/carolinejeunon/francais_devoir#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "prompt-sync": "^4.2.0"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/details.css">
+    <title>Details</title>
+</head>
+<body>
+    <section id="topbar">
+        <h1 id="titulo">Expressions</h1>
+        
+   
+    
+        <nav id="menu">
+        <ul class="links">
+            <a id="btn2" href="/">Retourner à la page initiel</a>
+            <br>
+            <br>
+            <a id="btn1" href="/enregistrement">Enregistrer une expression</a>
+        </ul>
+        </nav>
+    </section>
+
+        <div>
+        <h2>
+            <%= mot.expression %>
+        </h2>
+        </div>
+    
+
+    <section id="details">
+        <img class="img1" src="<%= mot.image %>" alt="Expression" height="300" width="250" class="img-file" alt="<% mot.expression %>">
+        <div >
+            <h3>Traduction: </h3>
+        <p>
+            <%= mot.traduction %>
+
+        </p>
+        <div>
+
+    </section>
+
+  
+    <script src="/js/script.js"></script>
+</body>
+</html>

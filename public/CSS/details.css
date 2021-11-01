@@ -1,0 +1,51 @@
+html {
+    background-image: url("../img/imagem_fundo2.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+h1{
+    text-align: left;
+    font-size: 60px;
+    padding: 40px;
+    font-family: URWeb cursive;
+    color: rgb(255, 242, 226);
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Helvetica;
+    color:rgb(27, 0, 77);
+    font-style: italic;
+}
+
+#details{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(27, 0, 77);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img1{
+    border-radius: 15%;
+}
+
+#btn1{
+    align-items:initial;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+#btn2{
+    align-items:initial;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 0;
+}

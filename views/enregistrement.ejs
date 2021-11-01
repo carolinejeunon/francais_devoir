@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/enregistrement.css">
+    <title>Enregistrement</title>
+</head>
+<body>  
+    <header>
+        <h1 id="titulo">Dictionnaire</h1>
+    </header>
+    <nav id="menu">
+    <ul class="links">
+        <a id="btnHome" href="/">Retourner à la page principal</a>
+    </ul>
+
+
+    <div  id="toptext">
+        <h2>Enregistrement <br>des nouvelles expressions!</h2>
+    <section id="form">
+    
+    <form action="/nouveau" method="POST">
+    <div>
+        <label for="nome">Expression:</label>
+        <input type="text" name="expression" id="expression" placeholder="Expression ici" required>
+    </div>
+    <div>
+        <label for="image">L'image:</label>
+        <input type="text" name="image" id="image" placeholder="URL d'image" required>
+    </div>
+    <div>
+        <label for="traduction">Traduction:</label>
+        <input type="text" name="traduction" id="traduction" placeholder="Traduction" required>
+    </div>
+    
+
+
+     <button id="botaoform" type="submit">Terminer</button>
+    </form> 
+    </section>
+    </div>
+</body>
+</html> 

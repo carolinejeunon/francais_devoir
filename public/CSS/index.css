@@ -1,0 +1,39 @@
+html {
+    background-image: url("../img/imagem_fundo2.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:scroll;
+    background-size: cover;
+}
+
+h1{
+    text-align: left;
+    margin: 0;
+    padding: 40px;
+    font-size: 60px;
+    color: rgb(255, 242, 226);
+    font-family: URWeb cursive;
+    margin: 0;
+}
+
+#btn1{
+    align-items:initial;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 0;
+}
+
+#expression{
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.img2{
+    border-radius: 15%;
+}
+
+image {
+    display: block;
+    margin: 0 auto;
+}

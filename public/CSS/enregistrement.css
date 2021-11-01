@@ -1,0 +1,31 @@
+html {
+  background-image: url("../img/imagem_fundo2.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment:scroll;
+  background-size: cover;
+  
+}
+
+#btnHome{
+  align-items:initial;
+  background-color: whitesmoke;
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+h1{
+  text-align: left;
+  margin: 0;
+  padding: 40px;
+  font-size: 60px;
+  color: rgb(255, 242, 226);
+  font-family: URWeb cursive;
+}
+
+#toptext{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(37, 5, 110);
+}
